@@ -40,3 +40,36 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+const navLinks = document.querySelectorAll('a');
+console.log(navLinks);
+navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
+
+// const navLinks = document.querySelectorAll('a');
+console.log(navLinks);
+navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
+
+navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
+
+navLinks[3].textContent = siteContent["nav"]["nav-item-4"];
+
+navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
+
+navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
+
+
+let codeSnippetImg = document.getElementById("cta-img");
+codeSnippetImg.setAttribute('src', siteContent["cta"]["img-src"])
+
+
+
+// steps
+// declare variable for h1 with symantic naming convention
+// use a dom method such as getElementByEtc("selector tag name, class, id, etc.");
+// use variable with a method/property on a specific element of the object
+
+
+
+// let nav = document.querySelector("a");
+// nav.textContent(siteContent["nav"]["nav-item-1"])
